@@ -1,0 +1,493 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #FE5140;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+.navbar-inverse {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.navbar-inverse .navbar-brand{
+    color : #ffffff;
+}
+.x-column-menu{
+    padding: 0px;
+    margin-top: 28px;
+}
+.navbar-brand{
+    color : #ffffff;
+}
+.x-profile-image{
+    width: 25px;
+	height: 25px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: -25px !important;
+	margin-top: -3px !important;
+}
+.x-btn-default{
+  margin:8px !important;
+  border-radius: 0px;
+}
+.x-btn-selected{
+        background-color: #ff0000;
+    border-color: #ff0000;
+    color:#ffffff;
+}
+.x-caret{
+    margin: 0px 0 0 83px !important;
+    height: 44px;
+    position: absolute !important;
+}
+.navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border:none !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background: none;
+}
+.navbar-inverse .navbar-nav>li> div>a:focus, .navbar-inverse .navbar-nav>div>li>a:hover {
+color: #fff;
+background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li> div >a {
+    color: #ffffff;
+}
+.navbar-toggle :hover{
+    border:none !important;
+    background-color: transparent;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+body {
+    padding: 30px 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.wrap {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FE5140;
+}
+
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 33px;
+    margin-top: 33px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+.progress-0 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-5 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-10 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-15 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-20 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-25 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-30 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-35 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-40 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-45 {
+    background-image: linear-gradient(90deg, #cb3729 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-50 {
+    background-image: linear-gradient(-90deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-55 {
+    background-image: linear-gradient(-72deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-60 {
+    background-image: linear-gradient(-54deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-65 {
+    background-image: linear-gradient(-36deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-70 {
+    background-image: linear-gradient(-18deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-75 {
+    background-image: linear-gradient(0deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-80 {
+    background-image: linear-gradient(18deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-85 {
+    background-image: linear-gradient(36deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-90 {
+    background-image: linear-gradient(54deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-95 {
+    background-image: linear-gradient(72deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+
+.progress-100 {
+    background-image: linear-gradient(90deg, #fe5140 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #fe5140 50%, #cb3729 50%, #cb3729);
+}
+.x-culinary-name{
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 15px;
+}
+.x-culinary-follow a {
+    width: 180px;
+}
+.x-culinary-follow  {
+   text-align:right;
+}
+.x-btn-orange{
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color:#ffffff;
+}
+#container {
+    margin: 0 auto;
+
+}
+#accordion input {
+    display: none;
+}
+#accordion label {
+    background: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 1em;
+    padding: 1.40em 1em;
+    z-index: 20;
+    border: 1px solid #eeeeee;
+}
+#accordion label:hover {
+     background-color: #EBEDEC;
+     color:#000;
+}
+
+#accordion input:checked + label {
+    background: #fff;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: black;
+    margin-bottom: 0;
+}
+#accordion input:checked + label .x-circle{
+  display:none;
+}
+#accordion input:checked + label .x-circle-x {
+    background-image: url(../images/slices/Asset7.png);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: black;
+    margin-bottom: 0;
+    background-size: contain;
+    padding: 0 0 0 16px;
+}
+#accordion article {
+    background: #fff;
+    height:0px;
+    overflow:hidden;
+    z-index:10;
+}
+#accordion article p {
+    padding: 1em;
+}
+#accordion input:checked article {
+}
+#accordion input:checked ~ article {
+    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: .25em;
+    height: auto;
+    margin-bottom: 1.125em;
+}
+.x-hr{
+  border-bottom:1px solid #eeeeee;
+}
+.x-row{
+  background:#fff;
+  padding:8px;
+}
+.x-circle{
+    moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    padding: 0px 4px 0 5px;
+}
+.x-number{
+  margin-left:10px;
+}
+.x-jurnal-detail{
+ }
+.x-row-accordian{
+  margin:10px;
+}
+.x-google-map map{
+	height: 185px !important;
+	padding: 10px !important;
+}
+.x-restorent-name{
+   font-size: 16px;
+	font-weight: bold;
+	color: #999;
+}
+.x-restorent-review{
+  margin: 0px 0px 1px 2px;
+}
+.x-restorent{
+   padding: 7px 0 10px 34px;
+}
+.x-restorent-contant{
+	background: #F8F8F8;
+	font-size: 14px;
+	margin: 12px 0 0px 0px;
+	padding: 16px;
+ }
+ .x-restorent-status{
+   color:#449E50;
+ }
+ .x-restorent-hr{
+      border-bottom: 1px solid #999;
+	   margin: 10px 0 12px 0px;
+ }
+ .x-restorent-photo{
+   padding:6px 0 0 23px;
+ }
+ .x-restorent-img{
+     width: 188px;
+     height: 161px;
+ }
+ .x-phot-inner-text{
+	position: absolute;
+	top: 77px;
+	left: 88px;
+	color: #fff;
+ }
+@media all and (max-width: 665px) {
+    .x-btn-con-show{
+        display:block;
+    }
+    .x-btn-con-show-one{
+        display:none;
+    }
+    .x-border-redius{
+        border-radius: 0 !important;
+        background-color: #ff0000 !important;
+        border-color: #ff0000 !important;
+        color:#ffffff !important;
+    }
+    .x-float-right{
+        float: left !important;
+        margin: 0px;
+    }
+}
+.x-border-redius{
+    border-radius: 0 !important;
+}
+.x-border-2-redius{
+    border-radius: 0 !important;
+}
+
+@media all and (min-width: 666px) {
+    .x-btn-con-show{
+        display:none;
+    }
+    .x-btn-con-show-one{
+        display:block;
+    }
+    .x-float-right{
+        float: right !important;
+        margin: 37px 38px 0px 0px;
+    }
+}
+#bs-example-navbar-collapse-1{
+    width:98%;
+}
+.x-body-style{
+          padding: 2%;
+}
